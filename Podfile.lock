@@ -1,0 +1,35 @@
+PODS:
+  - DatePickerDialog (1.1.6)
+  - DKImagePickerController (3.4.0):
+    - DKImagePickerController/Camera (= 3.4.0)
+    - DKImagePickerController/ImageManager (= 3.4.0)
+  - DKImagePickerController/Camera (3.4.0)
+  - DKImagePickerController/ImageManager (3.4.0)
+  - ImageScrollView (1.3)
+  - Kingfisher (3.1.0)
+
+DEPENDENCIES:
+  - DatePickerDialog
+  - DKImagePickerController (from `https://github.com/zhangao0086/DKImagePickerController.git`, branch `master`)
+  - ImageScrollView
+  - Kingfisher
+
+EXTERNAL SOURCES:
+  DKImagePickerController:
+    :branch: master
+    :git: https://github.com/zhangao0086/DKImagePickerController.git
+
+CHECKOUT OPTIONS:
+  DKImagePickerController:
+    :commit: 11d2e8356cb3647f3e403b0817bdfbcd92164780
+    :git: https://github.com/zhangao0086/DKImagePickerController.git
+
+SPEC CHECKSUMS:
+  DatePickerDialog: 9eb8992316c0fea6e6329e8b142ef5a0620653c0
+  DKImagePickerController: 5e64adbe34c27cc63bc38cccdaf3a40c3b4f729c
+  ImageScrollView: 2f2d7139fb5a7d0c0b021eb8b086d8c3dc54c233
+  Kingfisher: 7779f22e977393e9533a89a9685beb8f679d3767
+
+PODFILE CHECKSUM: 6dafa2e6268986572a4f6e7058ad32faf7a43b31
+
+COCOAPODS: 1.1.0.rc.2

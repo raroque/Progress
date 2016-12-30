@@ -10,4 +10,6 @@ import UIKit
 
 class HeaderCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var headerLabel: UILabel!
+    
 }
